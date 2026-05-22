@@ -8,4 +8,11 @@ public class Robot {
         this.robotName = robotName;
     }
 
+    public String getRobotName() {
+        return robotName;
+    }
+
+    public void setRobotName(String robotName) {
+        this.robotName = robotName;
+    }
 }
