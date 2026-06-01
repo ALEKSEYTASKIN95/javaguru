@@ -1,6 +1,6 @@
 package org.javaguru.mentor.lesson_3_oop_first_look.homework.level_7;
 
-public class MusicSpeaker {
+class MusicSpeaker {
 
     private String model;
     private int volume;
