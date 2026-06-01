@@ -1,20 +1,18 @@
 package org.javaguru.mentor.lesson_3_oop_first_look.homework.solutions.level_4.task_3;
 
-import java.util.Date;
-
 class DoctorTimetable {
 
     private String doctorFirstName;
     private String doctorLastName;
     private String doctorSpeciality;
-    private Date appointmentDate;
+    private String appointmentDate;
     private DoctorAppointment appointment1;
     private DoctorAppointment appointment2;
 
     public DoctorTimetable(String doctorFirstName,
                            String doctorLastName,
                            String doctorSpeciality,
-                           Date appointmentDate,
+                           String appointmentDate,
                            DoctorAppointment appointment1,
                            DoctorAppointment appointment2) {
         this.doctorFirstName = doctorFirstName;
@@ -37,7 +35,7 @@ class DoctorTimetable {
         return doctorSpeciality;
     }
 
-    public Date getAppointmentDate() {
+    public String getAppointmentDate() {
         return appointmentDate;
     }
 

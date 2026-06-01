@@ -16,7 +16,7 @@ class DoctorTimetableApp {
             "Kristina",
             "Kozlova",
             "pediatrician",
-                        new Date("01.01.2023"),
+                        "02.06.2026",
                         appointment1, appointment2
         );
 
