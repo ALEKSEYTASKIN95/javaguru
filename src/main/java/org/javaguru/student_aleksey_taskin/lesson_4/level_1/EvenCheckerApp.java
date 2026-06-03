@@ -5,5 +5,6 @@ public class EvenCheckerApp {
     public static void main(String[] args) {
         EvenChecker evenChecker = new EvenChecker();
         System.out.println(evenChecker.isEven(0));
+        System.out.println();
     }
 }
