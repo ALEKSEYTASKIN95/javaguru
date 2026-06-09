@@ -23,13 +23,13 @@ class Stock {
         }
     }
 
-    public String getCompanyName() {
-        return companyName;
-    }
-
-    public double getCurrentPrice() {
-        return currentPrice;
-    }
+//    public String getCompanyName() {
+//        return companyName;
+//    }
+//
+//    public double getCurrentPrice() {
+//        return currentPrice;
+//    }
 
     public double getMinPrice() {
         return minPrice;
