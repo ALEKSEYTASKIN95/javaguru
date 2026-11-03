@@ -10,4 +10,6 @@ class SquareAndPerimeterCircleCalculator {
         return Math.PI * radius * radius;
     }
 
+    //03.11.2026
+
 }
